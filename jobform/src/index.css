@@ -1,0 +1,636 @@
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: whitesmoke;
+}
+header{
+margin-top: 0px;
+border: 0;
+}
+nav{
+height: 70px;
+border-bottom: solid 1px #161b21;
+}
+nav h1{
+margin-top: -10px;
+font-size: 30px;
+padding: 20px 30px;
+color: goldenrod;
+}
+h1 span{
+color:#161b21 ;
+}
+#careers{
+color: black;
+font-size: 18px;
+}
+section{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: center;
+background-color: #161b21;
+color: white;
+top: 0;
+bottom: 0;
+position: sticky;
+z-index: 2;
+}
+section span{
+padding: 10px 90px;
+}
+section span a{
+background-color: goldenrod;
+padding: 15px 45px 15px 45px;
+border-radius: 25px;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+color: #161b21;
+font-weight: bolder;
+transition: padding, background-color, 0.2s linear;
+}
+section span a:hover{
+padding: 15px 50px 15px 50px;
+background-color: rgba(218, 165, 32, 0.568);
+}
+main{
+width: 95%;
+margin: auto;
+margin-bottom: 150px;
+}
+main h3{
+padding-top: 40px;
+padding-left: 10px;
+}
+main p{
+width: 50%;
+font-size: 14px;
+padding-left: 20px;
+}
+main li{
+font-size: 14px;
+margin-left: 20px;
+line-height: 30px;
+}
+label {
+display: block;
+margin-left: 10%;
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+margin-bottom: 20px;
+font-weight: bolder;
+}
+input[type=file]{
+display: block;
+height: 50px;
+width: 70%;
+border: 2px #828a94 dashed;
+font-weight: 500;
+margin-left: 10%;
+margin-bottom: 50px;
+padding-top: 20px;
+font-size: 18px;
+color: red;
+}
+input[type=text]{
+display: block;
+height: 50px;
+width: 70%;
+font-size: 18px;
+font-weight: 500;
+margin-left: 10%;
+margin-bottom: 50px;
+padding-right: 2%;
+}
+input[type=email]{
+display: block;
+height: 50px;
+width: 70%;
+font-weight: 500;
+margin-left: 10%;
+font-size: 18px;
+margin-bottom: 50px;
+padding-right: 2%;
+}
+input[type=date]{
+display: block;
+height: 50px;
+width: 70%;
+margin-left: 10%;
+font-size: 18px;
+margin-bottom: 50px;
+padding-right: 2%;
+}
+input[type=number]{
+  display: block;
+  height: 50px;
+  width: 70%;
+  margin-left: 10%;
+  font-size: 18px;
+  margin-bottom: 50px;
+  padding-right: 2%;
+  }
+select{
+display: block;
+height: 50px;
+width: 73%;
+margin-left: 10%;
+margin-bottom: 50px;
+font-size: 18px;
+outline: none;
+border:  1px solid #161b21;
+border-radius: 12px;
+padding-left: 20px;;
+}
+select:focus{
+box-shadow: 0px 0px 4px #161b21;
+}
+input{
+display: block;
+font-size: 14px;
+padding-left: 2%;
+background-color: mintcream;
+border: 1px solid #161b21;
+border-radius: 12px;
+outline: none;
+}
+input:focus{
+box-shadow: 0px 0px 4px #161b21;
+}
+input[type=radio]{
+display: inline ;
+}
+input[type=radio]{
+height: 20px;
+width: 5%;
+margin-left: 10%;
+margin-bottom: 50px;
+
+}
+form{
+background-color: goldenrod;
+border: 1px goldenrod solid;
+width: 60%;
+margin: auto;
+font-family: 'Open Sans', sans-serif;
+padding: 50px;
+margin-bottom: 150px;
+}
+.form h1{
+margin-bottom: 60px;
+text-align: center;
+text-decoration: underline goldenrod;
+}
+textarea{
+display: block;
+height: 250px;
+width: 70%;
+margin-left: 10%;
+margin-bottom: 50px;
+outline: none;
+border-radius: 12px;
+border: solid 1px #161b21;
+font-size: 20px;
+padding-left: 3%;
+padding-top: 3%;
+font-family: 'Open Sans', sans-serif;
+}
+textarea:focus{
+box-shadow: 0px 0px 4px #161b21;
+}
+option{
+color: red;
+font-size: 20px;
+}
+form input[type=submit]{
+padding: 20px 40px;
+border: none;
+border-radius: 15px;
+background-color: #161b21 ;
+color: goldenrod;
+font-size: 25px;
+cursor: pointer;
+margin-left: 40%;
+transition: background-color 0.5s linear;
+}
+form input[type=submit]:hover{
+background-color: #161b21de;
+}
+.warning{
+color: red;
+margin-left: 12%;
+margin-top: -40px;
+font-size: 14px;
+font-weight: 100;
+}
+.sux{
+background-color: red;
+}
+.afrihubSuccess{
+  margin-top:50px;
+  width: 23.5%;
+  margin: auto;
+  border-radius: 10%;
+}
+.afrihubSuccess img{
+  margin-top: 30%;
+  border-radius: 10%;
+}
+.successText h1{
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 0px 0px 4px grey;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+ #home a{
+  background-color: goldenrod;
+  padding: 15px 45px 15px 45px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #161b21;
+  font-weight: bolder;
+  transition: padding, background-color, 0.2s linear;
+  margin-left: 46%;
+}
+#home a:hover{
+  padding: 15px 50px 15px 50px;
+  background-color: rgba(218, 165, 32, 0.568);
+}
+
+/* Media Query*/
+
+@media screen and (max-width:450px) {
+nav{
+height: 50px;
+border-bottom: solid 1px #161b21;
+}nav h1{
+margin-top: 10px;
+font-size: 20px;
+padding: 10px 15px;
+color: goldenrod;
+}
+#careers{
+color: black;
+font-size: 14px;
+}
+section{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: center;
+background-color: #161b21;
+color: white;
+height: 350px;
+z-index: 2;
+position: sticky;
+top: 0;
+bottom: 0;
+}
+section span{
+padding: 5px 45px;
+}
+section span a{
+background-color: goldenrod;
+padding: 10px 30px 10px 30px;
+border-radius: 25px;
+font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+color: #161b21;
+font-weight: bolder;
+transition: padding, background-color, 0.2s linear;
+}
+section span a:hover{
+padding: 15px 30px 15px 30px;
+background-color: rgba(218, 165, 32, 0.568);
+}
+main{
+width: 90%;
+margin: auto;
+}
+main h3{
+padding-top: 20px;
+padding-left: 20px;
+}
+main p{
+width: 80%;
+font-size: 14px;
+padding-left: 20px;
+}
+main li{
+font-size: 14px;
+margin-left: 0px;
+line-height: 30px;
+}
+label {
+display: block;
+margin-left: 2%;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+margin-bottom: 10px;
+font-weight: bolder;
+}
+input[type=file]{
+display: block;
+height: 50px;
+width: 90%;
+border: 2px #828a94 dashed;
+font-weight: 500;
+margin-left: 5%;
+margin-bottom: 50px;
+font-size: 18px;
+color: red;
+}
+input[type=text]{
+display: block;
+height: 40px;
+width: 90%;
+font-size: 14px;
+font-weight: 500;
+margin-left: 5%;
+margin-bottom: 50px;
+padding-left: 5%;
+}
+input[type=email]{
+display: block;
+height: 40px;
+width: 90%;
+font-weight: 500;
+margin-left: 5%;
+font-size: 14px;
+margin-bottom: 50px;
+padding-left: 5%;
+}
+input[type=date]{
+display: block;
+height: 40px;
+width: 90%;
+margin-left: 5%;
+font-size: 14px;
+margin-bottom: 50px;
+padding-left: 5%;
+}
+select{
+display: block;
+height: 40px;
+width: 90%;
+margin-left: 5%;
+margin-bottom: 50px;
+font-size: 14px;
+outline: none;
+border:  1px solid #161b21;
+border-radius: 12px;
+padding-left: 5%;;
+}
+select:focus{
+box-shadow: 0px 0px 4px #161b21;
+}
+input{
+display: block;
+font-size: 14px;
+padding-left: 2%;
+background-color: mintcream;
+border: 1px solid #161b21;
+border-radius: 12px;
+outline: none;
+}
+input:focus{
+box-shadow: 0px 0px 4px #161b21;
+    }
+input[type=radio]{
+display: inline ;
+    }
+input[type=radio]{
+height: 20px;
+width: 10%;
+margin-left: 5%;
+margin-bottom: 50px;
+    }
+form{
+background-color: goldenrod;
+border: 1px #161b21 solid;
+width: 60%;
+margin: auto;
+font-family: 'Open Sans', sans-serif;
+padding: 50px;
+}
+.form h1{
+margin-bottom: 40px;
+text-align: center;
+text-decoration: underline goldenrod;
+}
+textarea{
+display: block;
+height: 150px;
+width: 90%;
+margin-left: 5%;
+margin-bottom: 50px;
+outline: none;
+border-radius: 12px;
+border: solid 1px #161b21;
+font-size: 12px;
+padding-left: 3%;
+padding-top: 3%;
+font-family: 'Open Sans', sans-serif;
+}
+textarea:focus{
+box-shadow: 0px 0px 4px #161b21;
+}
+option{
+color: red;
+font-size: 14px;
+}
+form input[type=submit]{
+padding: 10px 20px;
+border: none;
+border-radius: 15px;
+background-color: #161b21 ;
+color: goldenrod;
+font-size: 18px;
+cursor: pointer;
+margin-left: 30%;
+transition: background-color 0.5s linear;
+}
+form input[type=submit]:hover{
+background-color: #161b21de;
+}
+.warning{
+color: red;
+margin-left: 12%;
+margin-top: -40px;
+font-size: 14px;
+font-weight: 100;
+}
+.afrihubSuccess{
+  margin-top:50px;
+  width: 90%;
+  margin: auto;
+  border-radius: 10%;
+}
+.afrihubSuccess img{
+  margin-top: 20%;
+  margin-left: 10%;
+  width: 80%;
+  border-radius: 10%;
+}
+.successText h1{
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 0px 0px 4px grey;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+ #home a{
+  background-color: goldenrod;
+  padding: 5px 25px 5px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #161b21;
+  font-weight: bolder;
+  transition: padding, background-color, 0.2s linear;
+  margin-left: 30%;
+}
+#home a:hover{
+  padding: 15px 50px 15px 50px;
+  background-color: rgba(218, 165, 32, 0.568);
+}
+
+}
+footer{
+  height: 70px;
+  background-color: #161b21;
+  bottom: -50px;
+  top: 100%;
+}
+footer h1{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+@media screen and (max-width:770px) and (min-width:452px) {
+  section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161b21;
+    color: white;
+    top: 0;
+    height: 370px;
+    bottom: 0;
+    position: sticky;
+    z-index: 2;
+  }
+  .afrihubSuccess{
+    margin-top:50px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10%;
+  }
+  .afrihubSuccess img{
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 10%;
+  }
+  .successText h1{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 0px 4px grey;
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+   #home a{
+    background-color: goldenrod;
+    padding: 5px 25px 5px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #161b21;
+    font-weight: bolder;
+    transition: padding, background-color, 0.2s linear;
+    margin-left: 40%;
+  }
+  #home a:hover{
+    padding: 15px 50px 15px 50px;
+    background-color: rgba(218, 165, 32, 0.568);
+  }
+}
+@media screen and (max-width:1200px) and (min-width:780px) {
+  .afrihubSuccess{
+    margin-top:50px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10%;
+  }
+  .afrihubSuccess img{
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 10%;
+  }
+  .successText h1{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 0px 4px grey;
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+   #home a{
+    background-color: goldenrod;
+    padding: 5px 25px 5px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #161b21;
+    font-weight: bolder;
+    transition: padding, background-color, 0.2s linear;
+    margin-left: 40%;
+  }
+  #home a:hover{
+    padding: 15px 50px 15px 50px;
+    background-color: rgba(218, 165, 32, 0.568);
+  }
+
+}
+@media screen and (min-width:2500px) {
+  .afrihubSuccess{
+    margin-top:50px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10%;
+  }
+  .afrihubSuccess img{
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 20%;
+    border-radius: 10%;
+  }
+  .successText h1{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 0px 4px grey;
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+   #home a{
+    background-color: goldenrod;
+    padding: 15px 45px 15px 45px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #161b21;
+    font-weight: bolder;
+    transition: padding, background-color, 0.2s linear;
+    margin-left: 46%;
+  }
+  #home a:hover{
+    padding: 15px 50px 15px 50px;
+    background-color: rgba(218, 165, 32, 0.568);
+  }
+
+}
